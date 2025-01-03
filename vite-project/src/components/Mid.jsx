@@ -12,7 +12,7 @@ const Mid = () => {
                     <button className="bg-green-500 text-white p-2 rounded-xl">Download Brouchure</button>
                 </div>
             </section>
-            <section className="">
+            <section className=" flex ">
                 <Card />
 
             </section>

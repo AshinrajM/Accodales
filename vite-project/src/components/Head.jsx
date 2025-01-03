@@ -20,13 +20,13 @@ const Head = () => {
                         <button className="bg-green-500 flex p-2 gap-2 items-center">
                             <p><img src={oneview} alt="" /></p>
                             <p className="font-semibold text-white">Schedule an Appointment</p>
-                        </button>   
+                        </button>
                     </div>
 
                     <div className="py-10 ml-20  grid grid-cols-3 gap-2">
                         <button className="flex justify-center bg-green-500 p-2 items-center rounded-3xl">
                             <p className="text-white text-md">Child care</p>
-                            <p><GoArrowUpRight color="white" fontSize={18}/></p>
+                            <p><GoArrowUpRight color="white" fontSize={18} /></p>
                         </button>
                         <button className="flex justify-center bg-green-500 p-2 items-center rounded-3xl">
                             <p className="text-white text-md">Child care</p>
@@ -44,15 +44,26 @@ const Head = () => {
                             <p className="text-white text-md">Child care</p>
                             <p><GoArrowUpRight color="white" fontSize={18} /></p>
                         </button>
-                        
+
                     </div>
                 </div>
             </section>
-            <section className="w-full rounded-md  h-screen bg-[url('https://s3-alpha-sig.figma.com/img/e376/ff49/b772255dc9f462388d9989292be0c7bc?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QGooFbc3UmijXb0j6jbKazo3tJvhlzIO~YBqa2S2pa-4YY7n-Ji8nTqo4zfAT5xOUhIxrGkqA4hUAsC5tuexHitq62D83YI6-qLCI0r3xovjNHAp1HJet8TQcEOwW7IlmzMA2dyRIKr-d8k-0OnmGW6iYw3~Lh808WfkxkzSvBZrA3CHHtmSt3HkrxtvxZl8UcmFjNR0qP-zBMOUkfBRi9tLFs4vZl6gFeXwGiQGaBuzBUyCwg2wORuRT-4zcdpq9NN6191GVyGHvs5HcU6Imc6yRJ~iNjOb2FVvNixNvAKED2kaZ8D9Rl8B1rIhTnW-OLZZOMlAmNWJce131nGIkw__')]">
+            {/* <section className="w-full rounded-md  h-screen bg-[url('https://s3-alpha-sig.figma.com/img/e376/ff49/b772255dc9f462388d9989292be0c7bc?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QGooFbc3UmijXb0j6jbKazo3tJvhlzIO~YBqa2S2pa-4YY7n-Ji8nTqo4zfAT5xOUhIxrGkqA4hUAsC5tuexHitq62D83YI6-qLCI0r3xovjNHAp1HJet8TQcEOwW7IlmzMA2dyRIKr-d8k-0OnmGW6iYw3~Lh808WfkxkzSvBZrA3CHHtmSt3HkrxtvxZl8UcmFjNR0qP-zBMOUkfBRi9tLFs4vZl6gFeXwGiQGaBuzBUyCwg2wORuRT-4zcdpq9NN6191GVyGHvs5HcU6Imc6yRJ~iNjOb2FVvNixNvAKED2kaZ8D9Rl8B1rIhTnW-OLZZOMlAmNWJce131nGIkw__')] ">
+            
                 <Navbar />
+            </section> */}
+            <section className="w-full rounded-md h-screen bg-[url('https://s3-alpha-sig.figma.com/img/e376/ff49/b772255dc9f462388d9989292be0c7bc?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QGooFbc3UmijXb0j6jbKazo3tJvhlzIO~YBqa2S2pa-4YY7n-Ji8nTqo4zfAT5xOUhIxrGkqA4hUAsC5tuexHitq62D83YI6-qLCI0r3xovjNHAp1HJet8TQcEOwW7IlmzMA2dyRIKr-d8k-0OnmGW6iYw3~Lh808WfkxkzSvBZrA3CHHtmSt3HkrxtvxZl8UcmFjNR0qP-zBMOUkfBRi9tLFs4vZl6gFeXwGiQGaBuzBUyCwg2wORuRT-4zcdpq9NN6191GVyGHvs5HcU6Imc6yRJ~iNjOb2FVvNixNvAKED2kaZ8D9Rl8B1rIhTnW-OLZZOMlAmNWJce131nGIkw__')] bg-cover relative">
+                {/* Shadow overlay */}
+                <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-transparent z-0"></div>
+
+                {/* Navbar */}
+                <div className="relative z-10">
+                    <Navbar />
+                </div>
             </section>
+
         </div>
-        
+
     )
 }
 
